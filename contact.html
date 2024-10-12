@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alpine Hideaway | contact</title>
+        <meta name="author" content="Cass Korich">
+        <meta name="description" content="Fill out our contact form to book your escape today!">
+        <!--favicon links here-->
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!--link stylesheet here-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="final-copy/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!--resort name with homepage link here-->
+            <a href="index.html"> <img src="images/icon with name.png" alt="icon of a mountain with the name Alpine Hideaway in gold text" width="150px" height="150px"> </a>
+            <h1><a href="index.html">Alpine Hideaway</a></h1>
+            <nav>
+                <!--home accommodations contact - with links-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!--image 'swiss-valley' with descriptive alt text-->
+            <img src="images/swiss-valley.jpg" alt="Lush, green, valley filled with pine trees. Snow capped mountains in the background" id="swiss-valley">
+        </header>
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <p>Required fields marked with a <span class="required">*</span></p>
+            <!--img swiss-sunset with description-->
+            <img src="images/swiss-sunset.jpg" alt="">
+            <form action="https://wp.zybooks.com/form-viewer.php"method="POST" >
+                <label for="my-name">full name<span class="required">*</span></label>
+                <input type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">email address<span class="required">*</span></label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-number">phone number<span class="required">*</span></label>
+                <input type="number" name="my-number" id="my-number" required>
+
+                <label for="contact">preferred contact method<span class="required">*</span></label>
+                <select name="contact" id="contact" required>
+                    <option value="">select 1</option>
+                    <option value="e">email</option>
+                    <option value="p">phone</option>
+                </select>
+
+                <label for="my-comments">comments<span class="required">*</span></label>
+                <input type="text" name="my-comments" id="my-comments" required>
+
+                <input type="submit" name="my-submit" id="my-submit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Alpine Hideaway</p>
+            <p>For Educational Purposes Only</p>
+        </footer>
+    </body>
